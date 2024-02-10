@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Data</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">FOLLOW ME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../mapa.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../listados.html">Listados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../mapaPersonal.html">Personales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../mapaPago.html">Parking de Pago</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <a href="userData.html" style="text-decoration: none;">Perfil</a>
+          <button class="btn btn-outline-danger" type="submit" onclick="logout()">Cerrar sesión</button>
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="text-center">Datos Usuario:</h1>
+            <!-- Agrega elementos HTML para mostrar los detalles del usuario -->
+            <div id="userDetails">
+              <p><strong>ID:</strong> <span id="user-id"></span></p>
+              <p><strong>Nombre:</strong> <span id="user-name"></span></p>
+              <p><strong>Apellido:</strong> <span id="user-lastname"></span></p>
+              <p><strong>Email:</strong> <span id="user-email"></span></p>
+              <p><strong>Role:</strong> <span id="user-role"></span></p>
+              <!-- Puedes agregar más detalles según la estructura de tu objeto de usuario -->
+            </div>
+          </div>
+          <div class="card-body">
+            <h1 class="text-center">Datos Coche:</h1>
+            <!-- Agrega elementos HTML para mostrar los detalles del usuario -->
+            <div id="userDetails-coche">
+              <p><strong>ID:</strong> <span id="user-coche-id"></span></p>
+              <p><strong>Marca:</strong> <span id="user-coche-marca"></span></p>
+              <p><strong>Modelo:</strong> <span id="user-coche-modelo"></span></p>
+              <p><strong>Longitud:</strong> <span id="user-coche-longitud"></span></p>
+              <p><strong>Ancho:</strong> <span id="user-coche-ancho"></span></p>
+              <!-- Puedes agregar más detalles según la estructura de tu objeto de usuario -->
+            </div>
+          </div>
+          <!-- Solo para administradores mostraremos una tabla para administrar los usuarios -->
+          <div class="card-body" id="usuarios">
+            <h1 class="text-center">Administrar Usuarios:</h1>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Nombre</th>
+                  <th>Apellido</th>
+                  <th>Email</th>
+                  <th>Role</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+              <tbody id="usersTable">
+                <tr>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="card-body" id="parking">
+            <h1 class="text-center">Administrar Parking:</h1>
+            <a href="../crearParking.html" class="btn btn-outline-success" style="margin-left: 35%;">Crear nuevo
+              Parking</a>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Nombre</th>
+                  <th>Plazas Totales</th>
+                  <th>Precio Minuto</th>
+                  <th>Precio Disponibles</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+              <tbody id="parkingTable">
+                <tr>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Agrega el script de Bootstrap y tu archivo de script personalizado -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../../js/auth/userData.js"></script>
+    <script src="../js/auth/logout.js"></script>
+
+</body>
+
+</html>

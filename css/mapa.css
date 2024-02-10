@@ -1,0 +1,11 @@
+#map {
+  height: 700px;
+  width: 100%;
+}
+.parking-container {
+  width: max-content;
+  height: max-content;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

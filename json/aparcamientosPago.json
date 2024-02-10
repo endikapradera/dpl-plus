@@ -1,0 +1,128 @@
+[
+  {
+    "nombre": "Aparcamiento 1",
+    "latitud": 28.448430,
+    "longitud": -16.290365,
+    "informacion": "Información del Aparcamiento 1",
+    "ocupado": 0
+  },
+  {
+    "nombre": "Aparcamiento 2",
+    "latitud": 28.466406,
+    "longitud": -16.266216,
+    "informacion": "Información del Aparcamiento 2",
+    "ocupado": false
+  },
+  {
+    "nombre": "Aparcamiento 3",
+    "latitud": 28.485380,
+    "longitud": -16.319483,
+    "informacion": "Información del Aparcamiento 3",
+    "ocupado": false
+  },
+  {
+    "nombre": "Aparcamiento 4",
+    "latitud": 28.450000,
+    "longitud": -16.300000,
+    "informacion": "Información del Aparcamiento 4",
+    "ocupado": true
+  },
+  {
+    "nombre": "Aparcamiento 5",
+    "latitud": 28.470000,
+    "longitud": -16.280000,
+    "informacion": "Información del Aparcamiento 5",
+    "ocupado": false
+  },
+  {
+    "nombre": "Aparcamiento 6",
+    "latitud": 28.480000,
+    "longitud": -16.320000,
+    "informacion": "Información del Aparcamiento 6",
+    "ocupado": true
+  },
+  {
+    "nombre": "Aparcamiento 7",
+    "latitud": 28.440000,
+    "longitud": -16.310000,
+    "informacion": "Información del Aparcamiento 7",
+    "ocupado": false
+  },
+  {
+    "nombre": "Aparcamiento 8",
+    "latitud": 28.460000,
+    "longitud": -16.290000,
+    "informacion": "Información del Aparcamiento 8",
+    "ocupado": false
+  },
+  {
+    "nombre": "Aparcamiento 9",
+    "latitud": 28.490000,
+    "longitud": -16.330000,
+    "informacion": "Información del Aparcamiento 9",
+    "ocupado": true
+  },
+  {
+    "nombre": "Aparcamiento 10",
+    "latitud": 28.455000,
+    "longitud": -16.305000,
+    "informacion": "Información del Aparcamiento 10",
+    "ocupado": false
+  },
+  {
+    "nombre": "Aparcamiento 11",
+    "latitud": 28.465000,
+    "longitud": -16.285000,
+    "informacion": "Información del Aparcamiento 11",
+    "ocupado": false
+  },
+  {
+    "nombre": "Aparcamiento 12",
+    "latitud": 28.485000,
+    "longitud": -16.325000,
+    "informacion": "Información del Aparcamiento 12",
+    "ocupado": true
+  },
+  {
+    "nombre": "Aparcamiento 13",
+    "latitud": 28.445000,
+    "longitud": -16.315000,
+    "informacion": "Información del Aparcamiento 13",
+    "ocupado": false
+  },
+  {
+    "nombre": "Aparcamiento 14",
+    "latitud": 28.455000,
+    "longitud": -16.295000,
+    "informacion": "Información del Aparcamiento 14",
+    "ocupado": false
+  },
+  {
+    "nombre": "Aparcamiento 15",
+    "latitud": 28.475000,
+    "longitud": -16.335000,
+    "informacion": "Información del Aparcamiento 15",
+    "ocupado": true
+  },
+  {
+    "nombre": "Aparcamiento 16",
+    "latitud": 28.450000,
+    "longitud": -16.315000,
+    "informacion": "Información del Aparcamiento 16",
+    "ocupado": false
+  },
+  {
+    "nombre": "Aparcamiento 17",
+    "latitud": 28.460000,
+    "longitud": -16.295000,
+    "informacion": "Información del Aparcamiento 17",
+    "ocupado": false
+  },
+  {
+    "nombre": "Aparcamiento 18",
+    "latitud": 28.480000,
+    "longitud": -16.335000,
+    "informacion": "Información del Aparcamiento 18",
+    "ocupado": true
+  }
+]
